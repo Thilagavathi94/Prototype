@@ -199,11 +199,10 @@ nav ul li a {
 
 .home-img1 img{
     width: 100%;
-}
-
-.home-img1{
     position: relative;
 }
+
+
 .home-content{
     position: absolute;
     text-align: center;
