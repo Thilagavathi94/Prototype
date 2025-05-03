@@ -1,0 +1,516 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    background-color: black;
+  
+    
+ 
+    
+   
+
+}
+
+/* heading content */
+
+
+.main {
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: white;
+    border: 2px solid lightgrey;
+    height: 100vh;
+}
+
+
+.head-content {
+    text-align: center;
+    /* height: 10px; */
+    background-color:white;
+  
+    
+    
+}
+.head-para{
+    font-size: 20px;
+    background-color: #eeffe5;
+
+}
+/* Laptop devices */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    
+    
+
+    .head-para {
+        font-size: 18px;
+    }
+}
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+  
+
+    .head-para {
+        font-size: 16px;
+    }
+}
+/* Mobile devices */
+@media (max-width: 767px) {
+    
+
+    .head-content {
+        padding: 20px;
+    }
+
+    .head-para {
+        font-size: 14px;
+        padding: 10px;
+    }
+}
+
+
+
+
+
+
+
+/* nav bar */
+
+.nav{
+    display: flex;
+}
+
+
+.logo{
+    margin: 20px;
+    font-size: 30px;
+    color: #2e872e;
+    background-color: white;
+
+}
+nav { 
+    display: flex; 
+    justify-content: space-between;
+    align-items: center; 
+   
+    background-color: white;
+    padding: 10px 20px; 
+ } 
+
+nav ul { 
+    display: flex; 
+    list-style: none; 
+    gap: 50px; 
+    background-color: white;
+}  
+
+nav ul li a { 
+    text-decoration: none; 
+    color: black;
+    padding: 5px 10px; 
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    background-color: white;
+} 
+.nav-button{
+    color: #2e872e;
+    background-color: white;
+    border: 2px solid #2e872e;
+    width: 150px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+/* Laptop devices */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    nav ul {
+        gap: 30px;
+    }
+
+    nav ul li a {
+        font-size: 25px;
+    }
+
+    .nav-button {
+        width: 120px;
+        font-size: 18px;
+    }
+}
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .nav-button {
+        width: 100px;
+        font-size: 16px;
+    }
+}
+/* Mobile devices */
+@media (max-width: 767px) {
+    nav {
+        flex-direction: column;
+        padding: 10px;
+        
+    }
+
+    .logo {
+        margin: 10px;
+        font-size: 25px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        padding: 0;
+    }
+
+    nav ul li a {
+        font-size: 18px;
+        padding: 5px;
+        background-color: white;
+    }
+
+    .nav-button {
+        width: 100%;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
+
+
+/* contact */
+
+.contact{
+    background-color: white;
+   
+    padding: 5%;
+
+}
+.contact-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: white;
+}
+.contact-container-item{
+    background-color: white;
+    height: 50px;
+
+
+}
+
+.contact-container-item-head{
+    background-color: white;
+    font-size: 25px;
+
+}
+.contact-container-item-para{
+    background-color: white;
+    font-size: 17px;
+    padding-top:4% ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.contact-container-item a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+
+}
+.link{
+    margin-left: 6%;
+}
+.link a{
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    
+
+}
+.link-head{
+    background-color: white;
+    font-size: 25px;
+}
+.link-about{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 3%;
+    
+}
+.link-advertise{
+    background-color: white;
+    font-size: 20px;
+    padding-top: 3%;
+}
+.link-headind{
+    background-color: white;
+    padding-top: 5%;
+    font-size: 25px;
+}
+.link-para{
+    background-color: white;
+    padding-top: 5%;
+    font-size: 18px;
+}
+.link-para1{
+    background-color: white;
+    padding-top: 5%;
+    font-size: 18px;
+}
+.terms{
+    background-color: white;
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.privacy{
+    background-color: white;
+    padding-top: 5%;
+    font-size: 18px;
+    font-weight: bold;
+}
+.guide{
+    background-color: white;
+}
+.guide-ul{
+    background-color: white;
+    
+}
+.guide-li {
+    background-color: white;
+    font-size: 25px;
+    list-style: none;
+    font-weight: bold;
+    padding-top: 2%;
+
+
+}
+.guide a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    
+
+}
+/* Laptop devices */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .contact-container-item-head {
+        font-size: 20px;
+    }
+
+    .contact-container-item-para {
+        font-size: 15px;
+    }
+}
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .contact-container1 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-container-item-head {
+        font-size: 18px;
+    }
+
+    .contact-container-item-para {
+        font-size: 14px;
+    }
+
+    .link-head {
+        font-size: 20px;
+    }
+
+    .link-about {
+        font-size: 16px;
+    }
+
+    .link-advertise {
+        font-size: 16px;
+    }
+}
+/* Mobile devices */
+@media (max-width: 767px) {
+    .contact-container1 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .contact-container-item-head {
+        font-size: 18px;
+    }
+
+    .contact-container-item-para {
+        font-size: 14px;
+    }
+
+    .link {
+        margin-left: 0;
+    }
+
+    .link-head {
+        font-size: 18px;
+    }
+
+    .link-about {
+        font-size: 14px;
+    }
+
+    .link-advertise {
+        font-size: 14px;
+    }
+
+    .guide-li {
+        font-size: 18px;
+    }
+}
+
+
+
+/* footer */
+.footer{
+    background-color: white;
+    padding: 1%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.footer-container{
+    background-color: white;
+   
+
+}
+.footer-para{
+    background-color: white;
+    font-size: 22px;
+}
+.social{
+    background-color: white;
+}
+.footer img{
+    background-color: white;
+}
+
+/* Laptop devices */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .footer-para {
+        font-size: 18px;
+    }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer-para {
+        font-size: 16px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    .footer {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5%;
+    }
+
+    .footer-para {
+        font-size: 14px;
+    }
+
+    .social {
+        margin-top: 10px;
+    }
+}
+/* terms&conditions */
+
+.terms{
+    background-color: white;
+
+}
+.terms-head{
+    background-color: white;
+    font-size: 30px;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.terms-heading{
+    background-color: white;
+    font-size: 28px;
+    margin-top: 2%;
+    margin-left: 2%;
+    font-weight: bold;
+}
+.terms-para{
+    background-color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+/* Laptop devices */
+@media (min-width: 1024px) and (max-width: 1440px) {
+    .terms-head {
+        font-size: 25px;
+    }
+
+    .terms-heading {
+        font-size: 23px;
+    }
+
+    .terms-para {
+        font-size: 20px;
+    }
+}
+
+/* Tablet devices */
+@media (min-width: 768px) and (max-width: 1023px) {
+    .terms-head {
+        font-size: 22px;
+    }
+
+    .terms-heading {
+        font-size: 20px;
+    }
+
+    .terms-para {
+        font-size: 18px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 767px) {
+    .terms-head {
+        font-size: 20px;
+        margin-left: 5%;
+    }
+
+    .terms-heading {
+        font-size: 18px;
+        margin-left: 5%;
+    }
+
+    .terms-para {
+        font-size: 16px;
+        margin-left: 5%;
+    }
+}
+
+/* privacy */
+
+.privacy{
+    background-color: white;
+}
+.privacy-head{
+    background-color: white;
+}
