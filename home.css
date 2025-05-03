@@ -274,20 +274,7 @@ nav ul li a {
     background-color:#ffecd7;
 }
 
-/* Laptop devices */
-@media (min-width: 1024px) and (max-width: 1440px) {
-    .home-content {
-        width: 70%;
-        height: 20%;
-        margin: 10%;
-        top: 33%;
-    }
 
-    .home-container {
-        grid-template-columns: repeat(5, 1fr);
-    }
-   
-}
 
 /* Tablet devices */
 @media (min-width: 768px) and (max-width: 1023px) {
